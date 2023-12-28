@@ -1,0 +1,95 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void CameraFollow_Start_m99884706C63F385A5C536C8837C14A38D1B6D78D (void);
+extern void CameraFollow_LateUpdate_m9C559F2A33098CED5CB8BD82CCD6FC98AB521D61 (void);
+extern void CameraFollow_LocMultipler_m503030DFF4B0FB73C604AA9D57C54E407D014351 (void);
+extern void CameraFollow__ctor_m113CC547D419EF599BC487F0F44B06BB2D4EE11B (void);
+extern void CircularMovement_Start_mABAAB4F0CB2B4271F9612D22C002D290CA2B0478 (void);
+extern void CircularMovement_Update_mBF95AC6615C3FCC2E6735E565B016AED78E6975B (void);
+extern void CircularMovement__ctor_m6CD16AF8B1E6CBABB6ADC30D99C736DE52937289 (void);
+extern void Cube_Start_mA3666DC006A5BDAE6F4B2B174C8861BBCA2CC97B (void);
+extern void Cube_LateUpdate_m6BFC2FC1B306ED0CACF51C81B3050ECA898BF23A (void);
+extern void Cube_RandomizeCube_mDCB2B2B24BBD1E0A0495A0350C458591A912A91F (void);
+extern void Cube_ChangeColorOverTime_m370DEDDEE68ECAC074984944EA7B10876F59B7B8 (void);
+extern void Cube__ctor_m6140AE68D7A41B6B2420D7C9BE28F59E2EE58292 (void);
+extern void Rotate_Start_mD322E77A3CF2BEF28C4DF71D3F529107F511B1FB (void);
+extern void Rotate_Update_m73D585515036D9B7AAD8336BFB8567283CE4C7E7 (void);
+extern void Rotate_GetRandomRotationSpeed_m780C7DF43CB61CE63B3CEE5BF6C064F8077B7E4B (void);
+extern void Rotate__ctor_m0EE5CC8EB699542BFC438DC3D547D39E442E9EE4 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[18] = 
+{
+	CameraFollow_Start_m99884706C63F385A5C536C8837C14A38D1B6D78D,
+	CameraFollow_LateUpdate_m9C559F2A33098CED5CB8BD82CCD6FC98AB521D61,
+	CameraFollow_LocMultipler_m503030DFF4B0FB73C604AA9D57C54E407D014351,
+	CameraFollow__ctor_m113CC547D419EF599BC487F0F44B06BB2D4EE11B,
+	CircularMovement_Start_mABAAB4F0CB2B4271F9612D22C002D290CA2B0478,
+	CircularMovement_Update_mBF95AC6615C3FCC2E6735E565B016AED78E6975B,
+	CircularMovement__ctor_m6CD16AF8B1E6CBABB6ADC30D99C736DE52937289,
+	Cube_Start_mA3666DC006A5BDAE6F4B2B174C8861BBCA2CC97B,
+	Cube_LateUpdate_m6BFC2FC1B306ED0CACF51C81B3050ECA898BF23A,
+	Cube_RandomizeCube_mDCB2B2B24BBD1E0A0495A0350C458591A912A91F,
+	Cube_ChangeColorOverTime_m370DEDDEE68ECAC074984944EA7B10876F59B7B8,
+	Cube__ctor_m6140AE68D7A41B6B2420D7C9BE28F59E2EE58292,
+	Rotate_Start_mD322E77A3CF2BEF28C4DF71D3F529107F511B1FB,
+	Rotate_Update_m73D585515036D9B7AAD8336BFB8567283CE4C7E7,
+	Rotate_GetRandomRotationSpeed_m780C7DF43CB61CE63B3CEE5BF6C064F8077B7E4B,
+	Rotate__ctor_m0EE5CC8EB699542BFC438DC3D547D39E442E9EE4,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[18] = 
+{
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1107,
+	1099,
+	1107,
+	2133,
+	1107,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	18,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
