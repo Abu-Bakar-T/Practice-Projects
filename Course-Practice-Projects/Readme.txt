@@ -8,3 +8,6 @@ Driving Simulator has some assets from store and others from Unity Junior Progra
 Following are the games that uses only Assets from Unity Junior Programmer Pathway.
 -Feed the Animal.
 -Simple Plane Programming
+-Catch the Ball
+-Sumo Battle Royale
+-Baloon Fly
