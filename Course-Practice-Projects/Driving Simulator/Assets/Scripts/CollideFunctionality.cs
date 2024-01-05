@@ -6,12 +6,8 @@ public class CollideFunctionality : MonoBehaviour
 {
     // Start is called before the first frame update
     public GameObject Car;
-    private bool carMovement = false;
-    private float speed = 100f;
-    void Start()
-    {
-        
-    }
+    [SerializeField] bool carMovement = false;
+    [SerializeField] float speed = 100f;
 
     // Update is called once per frame
     void Update()

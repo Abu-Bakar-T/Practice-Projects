@@ -5,19 +5,13 @@ using UnityEngine;
 public class FirstPersonView_Camera_Follow : MonoBehaviour
 {
     public GameObject Car;
-    private Vector3 offset;
+    [SerializeField] Vector3 offset;
     // Start is called before the first frame update
     void Start()
     {
         offset.x = -0.55f;
         offset.y = 0.55f;
         offset.z = 0.7f;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     private void LateUpdate()

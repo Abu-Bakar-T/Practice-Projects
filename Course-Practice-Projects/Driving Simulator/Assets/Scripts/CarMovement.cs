@@ -9,8 +9,8 @@ public class CarMovement : MonoBehaviour
     public float verticalInput;
     public float startSpeed = 10f;
     public float startTurnSpeed = 30f;
-    private float speed;
-    private float turnSpeed;
+    [SerializeField] float speed;
+    [SerializeField] float turnSpeed;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,8 +18,8 @@ public class CarMovement : MonoBehaviour
         turnSpeed = startTurnSpeed;
     }
 
-    // Update is called once per frame
-    void Update()
+    // Fixed Update is good for Physics and Movement
+    void FixedUpdate()
     {
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");

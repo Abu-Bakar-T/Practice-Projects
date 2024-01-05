@@ -5,19 +5,8 @@ using UnityEngine;
 public class BehindView_Camera_Follow : MonoBehaviour
 {
     public GameObject Car;
-    private Vector3 offset;
-    private bool wasLookingBackward = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] Vector3 offset;
+    [SerializeField] bool wasLookingBackward = false;
 
     private void LateUpdate()
     {

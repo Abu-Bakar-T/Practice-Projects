@@ -5,14 +5,9 @@ using UnityEngine;
 public class MovingCar : MonoBehaviour
 {
     public GameObject playerCar;
-    private float movingCarSpeed = 20f;
+    [SerializeField] float movingCarSpeed = 20f;
     public ParticleSystem explosion;
     public AudioSource explosionSound;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     void Update()
