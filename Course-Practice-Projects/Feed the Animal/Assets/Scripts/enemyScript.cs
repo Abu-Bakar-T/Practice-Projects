@@ -7,10 +7,10 @@ using UnityEngine.UI;
 public class enemyScript : MonoBehaviour
 {
     public float speed=20f;
-    private float lowerBound = -20f;
     public HungerBar hungerBarForegroundSprite;
-    private GameManager gm;
-    private Collider myCollider;
+    [SerializeField] float lowerBound = -20f;
+    [SerializeField] GameManager gm;
+    [SerializeField] Collider myCollider;
 
     // Start is called before the first frame update
     void Start()
@@ -23,12 +23,14 @@ public class enemyScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * speed *Time.deltaTime);
-
-        if (transform.position.z < lowerBound || transform.position.x < -25 || transform.position.x > 25)
+        if (gm.isGameActive)
         {
-            Destroy(gameObject);
-            gm.DecreaseLives();
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
+
+            if (transform.position.z < lowerBound || transform.position.x < -25 || transform.position.x > 25)
+            {
+                gm.DecreaseLives();
+            }
         }
     }
 
@@ -39,7 +41,7 @@ public class enemyScript : MonoBehaviour
         {
             hungerBarForegroundSprite.UpdateHungerBar(1, 1);
             gm.IncreaseScore();
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
 
             // the below area disables trigger so that object could be destroyed after no hunger
             bool flag = hungerBarForegroundSprite.EnableTriggerCollision();

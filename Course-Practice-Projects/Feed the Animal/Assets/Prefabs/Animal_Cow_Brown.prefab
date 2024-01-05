@@ -2092,6 +2092,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8c67c15d1efc9438879dbca793b1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hungerBar: {fileID: 0}
 --- !u!1 &8266856376415649021
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2105,8 @@ GameObject:
   - component: {fileID: 5166849010136798035}
   - component: {fileID: 3572318564784935304}
   - component: {fileID: 2591019630614293318}
+  - component: {fileID: 2332223809503244990}
+  - component: {fileID: 3231624584124910914}
   m_Layer: 0
   m_Name: Animal_Cow_Brown
   m_TagString: Enemy
@@ -2163,6 +2166,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   hungerBarForegroundSprite: {fileID: 0}
+  lowerBound: -20
+  gm: {fileID: 0}
+  myCollider: {fileID: 0}
 --- !u!65 &2591019630614293318
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2184,6 +2190,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 11.448357, y: 28.991274, z: 47.190197}
   m_Center: {x: 0.10367764, y: 16.253004, z: 0.13568665}
+--- !u!114 &2332223809503244990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266856376415649021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  leftBound: -25
+  rightBound: 25
+--- !u!114 &3231624584124910914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8266856376415649021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8350620681565368740
 GameObject:
   m_ObjectHideFlags: 0

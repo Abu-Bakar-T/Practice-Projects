@@ -3745,6 +3745,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8c67c15d1efc9438879dbca793b1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hungerBar: {fileID: 0}
 --- !u!1 &4599470213672766672
 GameObject:
   m_ObjectHideFlags: 0
@@ -5224,6 +5225,8 @@ GameObject:
   - component: {fileID: 7435546051343189711}
   - component: {fileID: 4548914077620610828}
   - component: {fileID: 8926658718082291074}
+  - component: {fileID: 5690276149137266407}
+  - component: {fileID: -1768348400790656670}
   m_Layer: 0
   m_Name: Dog_Labrador_01
   m_TagString: Enemy
@@ -5319,6 +5322,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   hungerBarForegroundSprite: {fileID: 0}
+  lowerBound: -20
+  gm: {fileID: 0}
+  myCollider: {fileID: 0}
 --- !u!65 &8926658718082291074
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5340,6 +5346,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.05203534, y: 0.18366724, z: 0.25645977}
   m_Center: {x: 0, y: 0.098884664, z: 0.030198654}
+--- !u!114 &5690276149137266407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6945999486407343063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  leftBound: -25
+  rightBound: 25
+--- !u!114 &-1768348400790656670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6945999486407343063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6989811948272776030
 GameObject:
   m_ObjectHideFlags: 0

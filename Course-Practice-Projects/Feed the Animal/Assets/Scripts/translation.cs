@@ -5,20 +5,20 @@ using UnityEngine;
 public class translation : MonoBehaviour
 {
     public float speed = 20f;
-    private float upperBound = 24f;
+    [SerializeField] GameManager gm;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        gm = FindObjectOfType<GameManager>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * speed*Time.deltaTime);
-        if(transform.position.z > upperBound)
+        if (gm.isGameActive)
         {
-            Destroy(gameObject);
+            transform.Translate(Vector3.forward * speed * Time.deltaTime);
         }
     }
 }

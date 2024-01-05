@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class HungerBar : MonoBehaviour
 {
     // Start is called before the first frame update
-    private Slider hungerBar;
+    [SerializeField] Slider hungerBar;
 
     private void Start()
     {

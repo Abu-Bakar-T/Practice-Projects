@@ -5,24 +5,21 @@ using TMPro;
 
 public class GameManager : MonoBehaviour
 {
-    private int score;
+    [SerializeField] int score;
+    [SerializeField] int lives;
+    public bool isGameActive;
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI livesText;
     public TextMeshProUGUI gameOverText;
-    private int lives;
 
     private void Start() 
     {
+        isGameActive = true;
         lives = 3;
         score = 0;
         scoreText.text = "Score: " + score;
         livesText.text = "Lives: " + lives;
         Debug.Log("Score: " + score);
-    }
-
-    private void Update()
-    {
-        
     }
 
     public void IncreaseScore()
@@ -44,6 +41,7 @@ public class GameManager : MonoBehaviour
         if(lives < 1)
         {
             Time.timeScale = 0;
+            isGameActive = false;
             gameOverText.gameObject.SetActive(true);
         }
     }

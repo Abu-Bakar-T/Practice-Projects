@@ -130,9 +130,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1544408276940278339}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd28b3b4dd5fbc6429b14509ad35b6bc, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  leftBound: -25
+  rightBound: 25
 --- !u!54 &917534617300167555
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -158,5 +162,5 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0

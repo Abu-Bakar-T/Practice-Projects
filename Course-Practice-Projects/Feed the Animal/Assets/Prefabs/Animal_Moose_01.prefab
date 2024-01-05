@@ -359,6 +359,8 @@ GameObject:
   - component: {fileID: 509899011156297397}
   - component: {fileID: 677363365193514059}
   - component: {fileID: 6125955323528239379}
+  - component: {fileID: -1945200658232612090}
+  - component: {fileID: -1427520834233247222}
   m_Layer: 0
   m_Name: Animal_Moose_01
   m_TagString: Enemy
@@ -427,6 +429,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   hungerBarForegroundSprite: {fileID: 0}
+  lowerBound: -20
+  gm: {fileID: 0}
+  myCollider: {fileID: 0}
 --- !u!65 &6125955323528239379
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -448,6 +453,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.15535045, y: 0.4351708, z: 0.37965497}
   m_Center: {x: 0.0008549582, y: 0.2345497, z: 0.06617755}
+--- !u!114 &-1945200658232612090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490825506907099357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topBound: 30
+  lowerBound: -10
+  leftBound: -25
+  rightBound: 25
+--- !u!114 &-1427520834233247222
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2490825506907099357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2647579624279878222
 GameObject:
   m_ObjectHideFlags: 0
@@ -550,6 +583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df8c67c15d1efc9438879dbca793b1ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hungerBar: {fileID: 0}
 --- !u!1 &3523085559800440447
 GameObject:
   m_ObjectHideFlags: 0
