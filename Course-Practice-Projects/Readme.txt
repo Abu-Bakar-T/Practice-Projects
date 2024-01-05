@@ -9,3 +9,5 @@ Following Projects have Assets from Unity Junior Programmer Pathway
 - Feed The Animal
 - Simple Plane Programming
 - Sumo Battle Royale
+- Clicky Crates
+- Whack-a-Food
