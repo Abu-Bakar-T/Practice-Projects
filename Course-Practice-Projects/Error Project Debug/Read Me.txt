@@ -1,0 +1,2 @@
+its a challenge in Unity Junior Programmer Pathway in which you have debug the game. 
+I did the debugging to fix all the bugs in it.
