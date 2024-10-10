@@ -97,7 +97,7 @@ This repository contains the projects I completed while taking the "CS50 Introdu
 
 ---
 
-### 7. Angry Birds
+### 7. Angry 50
 * **Description**: A physics-based game inspired by *Angry Birds*.
 * **Changes Made**:
   - Implemented Alien splitting mechanics:
