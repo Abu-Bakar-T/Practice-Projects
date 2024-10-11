@@ -1,2 +1,10 @@
-Course Practice Projects will contain Projects that i make during my Learning Period from various Courses.
-All Assets used here will mostly be from the course Libraries. Only Free Course Assets will be uploaded here. Paid Course Projects will not be uploaded or on a Private Repository so that theres no piracy issue.
+## Course Practice Projects
+
+The **Course Practice Projects** folder contains a collection of projects that I developed during my learning journey through various online courses. These projects serve as practical applications of the concepts and skills I acquired throughout my studies.
+
+### Key Details:
+- **Asset Usage**: The majority of assets used in these projects are sourced from the course libraries provided by the respective learning platforms. This ensures that I am following licensing agreements and utilizing resources designed specifically for educational purposes.
+- **Free Assets**: Only free course assets will be included in this folder to maintain compliance with copyright and licensing regulations.
+- **Paid Course Projects**: Projects developed using paid course assets will not be uploaded to this repository to avoid any potential piracy issues. This policy ensures that all content shared here remains within the bounds of ethical and legal standards.
+
+Feel free to explore the projects within this folder to see how I applied my learning in a practical context!
