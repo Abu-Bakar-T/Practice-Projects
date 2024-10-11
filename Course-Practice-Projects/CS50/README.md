@@ -2,6 +2,23 @@
 
 This repository contains the projects I completed while taking the "CS50 Introduction to Game Development" course, along with the changes I made to them.
 
+## Table of Contents
+
+- [Projects](#Projects)
+- [Pong](#1-pong)
+- [Flappy 50 (Clone of Flappy Bird Game)](#2-flappy-50-clone-of-flappy-bird-game)
+- [Breakout](#3-breakout)
+- [Match 3](#4-match-3)
+- [Mario50](#5-mario50)
+- [Zelda](#6-zelda)
+- [Angry 50](#7-angry-50)
+- [50-mon](#8-50-mon)
+- [Helicopter 3D](#9-helicopter-3d)
+- [Dreadhalls](#10-dreadhalls)
+- [Portal](#11-portal)
+- [Contact Information](#contact-information)
+
+
 ## Projects
 
 ### 1. Pong
@@ -15,7 +32,7 @@ This repository contains the projects I completed while taking the "CS50 Introdu
 
 ---
 
-### 2. Flappy Bird (Clone of Flappy Bird Game)
+### 2. Flappy 50 (Clone of Flappy Bird Game)
 * **Description**: A Clone of *Flappy Bird* with similar gameplay.
 * **Changes Made**:
   - Randomized the gap between pipes, making it vary for each pair of pipes rather than a fixed 90 pixels.
@@ -213,3 +230,11 @@ This repository contains the projects I completed while taking the "CS50 Introdu
 ---
 
 Each project demonstrates the key elements learned in game development, including game mechanics, design, and implementation.
+
+## Contact Information
+
+Feel free to reach out if you have any questions or feedback! You can contact me via:
+
+- **Email:** [ch.abu.bakar.tahir.zain@gmail.com](mailto:ch.abu.bakar.tahir.zain@gmail.com)
+- **LinkedIn:** [Abu Bakar Tahir]([https://www.linkedin.com/in/your-profile](https://www.linkedin.com/in/abu-bakar-tahir/))
+- **Portfolio Website:** [Linktree]([https://your-website.com)(https://linktr.ee/abu.bakar.t).
